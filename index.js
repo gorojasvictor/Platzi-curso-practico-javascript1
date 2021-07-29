@@ -139,3 +139,10 @@ function calcularPerimetroCirculo(){
   const perimetro = perimetroCirculo(value1)
   alert(perimetro);
 }
+
+function calcularAreCirculo(){
+  const radio = document.getElementById("InputCirculoRadio");
+  const value1 = Number(radio.value);
+  const area = areaCirculo(radio);
+  alert(diametro);
+}
